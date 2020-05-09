@@ -8,7 +8,7 @@ export const setAuthToken = token => {
     }
 };
 
-export const signup = (userdata) => {
+export const signup = (userData) => {
     return axios.post('/api/users/register', userData);
 };
 

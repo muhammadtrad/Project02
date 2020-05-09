@@ -12,7 +12,7 @@ export default function(state = initialState, action){
                 isAuthenticated: false,
                 user: null
             };
-        default: 
+        default:
             return state;
     }
 }
