@@ -17,7 +17,7 @@ class SignupForm extends React.Component {
     }
 
     //Redirect user to login page once they are signed up
-    componentWillReceiveProps(nextProps){
+    UNSAFE_componentWillReceiveProps(nextProps){
         if (nextProps.signedIn === true){
             this.props.history.push('/login');
         }
