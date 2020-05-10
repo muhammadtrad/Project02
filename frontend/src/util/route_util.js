@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Route, Redirect, withRouter } from 'react-router-dom';
 
+const mapStateToProps = state => (
+    {loggedIn: state.session.isAuthenticated}
+);
+
+
 //Passed in through parent component or from mapStateToProps
 //Directs user to component or home page depending on user login state
 const Auth = ({ component: Component, path, loggedIn, exact }) => (
@@ -10,28 +15,25 @@ const Auth = ({ component: Component, path, loggedIn, exact }) => (
         !loggedIn ? (
             <Component {...props} />
         ) : (
-            <Redirect to="/" />
+            <Redirect to="/home" />
         )
     )} />
 );
 
-//Redirect user to login page if not logged in
 const Protected = ({ component: Component, loggedIn, ...rest }) => (
     <Route
         {...rest}
-        render= {props =>
+        render={props =>
             loggedIn ? (
                 <Component {...props} />
             ) : (
-                <Redirect to="/login" />
-            )
-            }
-        />
+                    // Redirect to the login page if the user is already authenticated
+                    <Redirect to="/login" />
+                )
+        }
+    />
 );
 
-const mapStateToProps = state => (
-    {loggedIn: state.session.isAuthenticated}
-);
 
 export const AuthRoute = withRouter(connect(mapStateToProps)(Auth));
 
