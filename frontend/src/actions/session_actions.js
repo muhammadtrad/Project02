@@ -56,10 +56,8 @@ export const login = user => dispatch => (
 //When the user logs out, remove the session token and dispatch the logoutUser action
 export const logout = () => dispatch => {
     //remove the token from the local storage
-    //localStorage.removeItem('jwtToken');
-    localStorage.clear();
+    localStorage.removeItem('jwtToken');
     //delete the common header sent via axios
     APIUtil.setAuthToken(false);
-    dispatch(logoutUser);
-
+    dispatch(logoutUser());
 };
