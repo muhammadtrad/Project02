@@ -1,9 +1,29 @@
 body{
     margin: 10px;
 }
-
-.navbar-links{
-    display: flex;
-    align-items: center;
+.navbar{
+    margin: 10px;
+    text-align: center;
 }
 
+.navbar-title{
+    color: orange;
+    text-align: center;
+}
+
+.navbar-li{
+    padding: 0 .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-li:hover{
+    color: orange;
+}
+
+.navbar-logout{
+    position: fixed;
+    right: 50px;
+    color: white;
+    background-color: orange;
+}
