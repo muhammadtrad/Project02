@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-//import './navbar.css';
+import '../../css/navbar.css';
 
 class NavBar extends React.Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class NavBar extends React.Component {
     getLinks(){
         if (this.props.loggedIn) {
             return (
-               <div>
+               <div className='navbar-links'>
                    <Link to={'/example1'}>Example1</Link>
                    <Link to={'/profile'}>Profile</Link>
                    <Link to={'/example2'}>Example2</Link>

@@ -9,6 +9,8 @@ import SignupFormContainer from './session/signup_form_container';
 
 import Home from './home/home';
 
+import '../css/styles.css';
+
 const App = () => (
     <div>
     <NavBarContainer />
