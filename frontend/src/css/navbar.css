@@ -2,12 +2,15 @@ body{
     margin: 10px;
 }
 .navbar{
+    width: infinity;
+    color: orange;
     margin: 10px;
     text-align: center;
+
 }
 
 .navbar-title{
-    color: orange;
+    color: rgb(120, 177, 120);
     text-align: center;
 }
 
@@ -18,7 +21,7 @@ body{
 }
 
 .navbar-li:hover{
-    color: orange;
+    color: lightblue;
 }
 
 .navbar-logout{
@@ -27,3 +30,4 @@ body{
     color: white;
     background-color: orange;
 }
+

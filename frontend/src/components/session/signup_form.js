@@ -48,7 +48,7 @@ class SignupForm extends React.Component {
         return(
             <ul>
                 {Object.keys(this.state.errors).map((error, i) => (
-                    <li key={`error-${i}`}>
+                    <li className= "errors" key={`error-${i}`}>
                         {this.state.errors[error]}
                 </li>
                 ))}
@@ -86,7 +86,9 @@ class SignupForm extends React.Component {
                             placeholder="Confirm Password"
                         />
                         <br/>
-                        <input type="submit" value="Submit" />
+                        <div  className="submit-spacer">
+                           <input className ='submit-btn' type="submit" value="Submit" />
+                        </div>
                         {this.renderErrors()}
                     </div>
                 </form>

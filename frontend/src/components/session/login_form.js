@@ -49,7 +49,7 @@ renderErrors(){
     return(
         <ul>
             {Object.keys(this.state.errors).map((error, i) => (
-                <li key={`error-${i}`}>
+                <li className= 'errors' key={`error-${i}`}>
                     {this.state.errors[error]}
                 </li>
             ))}
@@ -59,7 +59,7 @@ renderErrors(){
 
 render() {
     return (
-        <div>
+        <div className = 'login-form-container'>
             <form onSubmit={this.handleSubmit}>
                 <div>
                     <input type="text"
@@ -74,8 +74,10 @@ render() {
                     placeholder="Email"
                     />
                 <br/>
-                    <input type="submit" value="Submit" />
+                <div className ="submit-spacer">
+                    <input className="submit-btn" type="submit" value="Submit" />
                     {this.renderErrors()}
+                </div>
                 </div>
             </form>
         </div>
