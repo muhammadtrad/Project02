@@ -5,6 +5,7 @@ html{
 
 body {
     margin: 20px;
+    display: block;
 }
 .login-form-container{
     padding-top: 20px;
@@ -28,4 +29,6 @@ body {
     list-style-type: none;
     margin-right: 30px;
 }
+
+
 

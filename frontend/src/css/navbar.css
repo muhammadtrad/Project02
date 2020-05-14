@@ -41,7 +41,7 @@ body{
 .navbar-logout{
     position: fixed;
     right: 50px;
-    color:lightblue;
+    color: rgb(54, 137, 165);;
     background-color:rgb(255, 255, 255);
     border-radius: 4px;
 }
