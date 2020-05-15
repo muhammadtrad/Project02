@@ -18,9 +18,9 @@ class NavBar extends React.Component {
         if (this.props.loggedIn) {
             return (
                <div className = 'navbar'>
-                   <Link className='navbar-li' to={'/example1'}>Example1</Link>
+                   <Link className='navbar-li' to={'/example1'}>Home</Link>
                    <Link className='navbar-li' to={'/profile'}>Profile</Link>
-                   <Link className='navbar-li' to={'/example2'}>Example2</Link>
+                   <Link className='navbar-li' to={'/example2'}>Account</Link>
                    <button onClick={this.logoutUser} className = 'navbar-logout'>Logout</button>
                </div>
             );
@@ -37,7 +37,7 @@ class NavBar extends React.Component {
     render() {
         return(
             <div className = "navbar-container">
-                <h1 className = 'navbar-title'>MERN APP</h1>
+                <h1 className = 'navbar-title'>LanguageAI</h1>
                 { this.getLinks() }
             </div>
         );
