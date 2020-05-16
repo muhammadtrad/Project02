@@ -12,6 +12,7 @@ body{
 .navbar-container{
     height: 100px;
     background-color: rgb(54, 137, 165);
+    display: block;
 }
 .navbar{
     text-align: center;
