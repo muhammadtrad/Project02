@@ -1,0 +1,167 @@
+[33mcommit 136b59db4cd73257cd5219c96488cb3f6242b160[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 22 18:36:42 2020 -0700
+
+    heroku deploy
+
+[33mcommit 65d2c5f4b1af22fcdb99140be374a27329e1a283[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sat May 16 23:35:54 2020 -0700
+
+    add font-weight
+
+[33mcommit 1fe2362ac4c995a564c9d344658b9a567a19b789[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 15 23:01:02 2020 -0700
+
+    add css
+
+[33mcommit 380821696e3a571d811febd4d53476d858c1b6ed[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Thu May 14 22:07:27 2020 -0700
+
+    add css
+
+[33mcommit 275479b41a057bcd4583cb271f21d85e40036e34[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Wed May 13 22:49:03 2020 -0700
+
+    add display block
+
+[33mcommit e2a55a84471a953e95fb1e894c61562409e55ae2[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Wed May 13 00:01:53 2020 -0700
+
+    add css sizing
+
+[33mcommit 93ff69d030a2c1d8e00407157939f9671ed6e384[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Tue May 12 23:59:20 2020 -0700
+
+    add navbar css
+
+[33mcommit 980a6b1259daa35c7df6821a73d45fb8049b288f[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Tue May 12 23:32:09 2020 -0700
+
+    add navbar css
+
+[33mcommit 1ab2fb59ca7a95294ad28a727d5902e8abbc28c4[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Tue May 12 01:05:56 2020 -0700
+
+    add navbar css
+
+[33mcommit 97824bf988db1b2686fe3fccf3e90e3e8bf31ca1[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Mon May 11 23:45:46 2020 -0700
+
+    add css
+
+[33mcommit 163743ad8666d5048957e43c8cccd39ba01564a0[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sun May 10 18:42:56 2020 -0700
+
+    fix logout dispatch
+
+[33mcommit 3209f114597608faf0cd552dbf655a96658beb82[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sun May 10 01:50:48 2020 -0700
+
+    modify routes
+
+[33mcommit 61b83d8703d9f41a21ab23d09d666cfbb3ec0025[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sat May 9 22:31:42 2020 -0700
+
+    add protected home route
+
+[33mcommit d4fbd6d074c4315430fcd60654ad0c754c23cb39[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sat May 9 21:53:44 2020 -0700
+
+    fix session reducer
+
+[33mcommit 66a2ece7eb39be9290b8aa874272a31179e03a47[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sat May 9 20:44:43 2020 -0700
+
+    add index
+
+[33mcommit 7282c280592cf4f49e8f4faca7b97fce1a5bc298[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 23:39:47 2020 -0700
+
+    configure frontend index
+
+[33mcommit f48f3dfc46553c0a1e6306dcbb91ef24364c7cba[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 22:59:06 2020 -0700
+
+    add signup form component
+
+[33mcommit c550228b3b66cde37fdaee99dd082d522cfcc526[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 22:10:45 2020 -0700
+
+    add login form
+
+[33mcommit 8af427edf9f4bb9587e380da60ab4d050818ad75[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 19:02:53 2020 -0700
+
+    add api reducer
+
+[33mcommit f2223e88788d8220ff812fdb4b27ca27fa99ffc3[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 18:33:43 2020 -0700
+
+    add sessionError reducer
+
+[33mcommit 21ef388f309f3bbe2d577020b3a70ce185073ffa[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Fri May 8 02:06:12 2020 -0700
+
+    add navbar component
+
+[33mcommit 3d7e054528ad2677d2038688d1ca16bd98899dc4[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Thu May 7 23:23:31 2020 -0700
+
+    add routes
+
+[33mcommit a216e3e4a416109948b1060e7ef7d18d4de5a230[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Thu May 7 01:50:12 2020 -0700
+
+    add action and reducer
+
+[33mcommit ab304f6b79ad6f00db5a71c23a8318ed3dc491c2[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Wed May 6 22:38:41 2020 -0700
+
+    add concurrently
+
+[33mcommit 33edb2f9c453e939ef75f95187c6c1d481666f2a[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Wed May 6 22:23:36 2020 -0700
+
+    add store on frontend
+
+[33mcommit 6912f3f2c3de818879a7ba1990bc6c097efa3d49[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Tue May 5 23:53:31 2020 -0700
+
+    add react frontend
+
+[33mcommit 8923679f7db66b30bfe5b382ed1f9dae6c48852e[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sun May 3 22:33:59 2020 -0700
+
+    add routes
+
+[33mcommit 35a14f5acb0fa22fcef0b04a1f8bf57fb3c7ad04[m
+Author: xmagnetisx <muhammad.trad@yahoo.com>
+Date:   Sat May 2 23:10:58 2020 -0700
+
+    first commit
